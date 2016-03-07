@@ -19,7 +19,7 @@
 
 // DLoopDetector and DBoW2
 #include <DBoW2/DBoW2.h>
-#include "DLoopDetector.h"
+#include "DLoopDetector/DLoopDetector.h"
 #include <DUtils/DUtils.h>
 #include <DUtilsCV/DUtilsCV.h>
 #include <DVision/DVision.h>

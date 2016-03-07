@@ -12,7 +12,7 @@
 
 // DLoopDetector and DBoW2
 #include <DBoW2/DBoW2.h> // defines Surf64Vocabulary
-#include "DLoopDetector.h" // defines Surf64LoopDetector
+#include "DLoopDetector/DLoopDetector.h" // defines Surf64LoopDetector
 #include <DUtilsCV/DUtilsCV.h> // defines macros CVXX
 
 // OpenCV
