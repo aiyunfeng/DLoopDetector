@@ -13,7 +13,7 @@
   <buildtool_depend>catkin</buildtool_depend>
   <buildtool_depend>catkin_simple</buildtool_depend>
 
+  <depend>cv_bridge</depend>
   <depend>dbow2</depend>
   <depend>dlib_catkin</depend>
-  <depend>opencv2_catkin</depend>
 </package>
