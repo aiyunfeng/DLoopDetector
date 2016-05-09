@@ -9,6 +9,7 @@ add_definitions(-std=c++11)
 cs_add_executable(demo_brief demo/demo_brief.cpp)
 
 cs_add_executable(demo_surf demo/demo_surf.cpp)
+target_link_libraries(demo_surf opencv_nonfree)
 
 set(RESOURCE_FILE ${CMAKE_BINARY_DIR}/resources.tar.gz)
 if(NOT EXISTS ${CMAKE_BINARY_DIR}/resources/)
